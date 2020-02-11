@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Abwesenheits-Manager</title>
+
+    <!-- CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--<link href="../css/Website.css" rel="stylesheet">-->
+
+</head>
+<body class="text-dark bg-light" style="padding-top: 100px">
+<header>
+
+    <!-- Header Navigation -->
+    <nav class="navbar navbar-expand-lg bg-white fixed-top navbar-light p-3 shadow-sm">
+        <a class="navbar-brand pt-3 pl-3" href="#">
+            <p>Logo</p>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsible" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsible">
+
+            <!-- Navbar Menü Desktop Ansicht > lg -->
+            <ul class="navbar-nav ml-auto d-none d-lg-flex">
+                <li class="nav-item">
+                    <a class="nav-link" href="#ausgangslageD">Ausgangslage</a>
+                </li>
+            </ul>
+
+            <!-- Navbar Menü Mobile Ansicht < lg -->
+            <ul class="navbar-nav ml-auto d-lg-none">
+                <li class="nav-item">
+                    <a class="nav-link" href="#ausgangslageM">Ausgangslage</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main role="main">
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+
+                <div class="m-3 p-3 bg-white rounded shadow-sm">
+
+                    <h3>Sprachreise
+                        <a class="float-right font-weight-bold ml-1 py-1 px-2" type="button" data-toggle="collapse" data-target="#maltaReise" aria-expanded="false" aria-controls="collapseExample">
+                            +
+                        </a>
+                    </h3>
+
+                    <div class="collapse" id="maltaReise">
+                        <!-- Progress-Bar -->
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 100%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                        <!-- Daten -->
+                        <div class="border-bottom border-gray pt-3"></div>
+                        <h6 class="pt-2">Daten</h6>
+                        <ul  class="list-unstyled">
+                            <li>Dauer: Mehrtägig</li>
+                            <li>Ziel: Malta</li>
+                        </ul>
+
+                        <!-- Anhänhe -->
+                        <div class="border-bottom border-gray pt-3"></div>
+                        <h6 class="pt-2">Anhänge</h6>
+                        <ul>
+                            <li>Busticket</li>
+                            <li>Restaurant-Rechnung</li>
+                        </ul>
+
+                        <!-- Generierte Dokumente -->
+                        <div class="border-bottom border-gray pt-3"></div>
+                        <h6 class="pt-2">Dokumente</h6>
+                        <ul>
+                            <li>Antrag</li>
+                            <li>Formular</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="m-3 p-3 bg-white rounded shadow-sm">
+                    <h3>Reise 2</h3>
+                    <div class="border"></div>
+                </div>
+
+                <div class="m-3 p-3 bg-white rounded shadow-sm">
+                    <h3>Reise 3</h3>
+                    <div class="border"></div>
+                </div>
+
+                <div class="m-3 p-3 bg-white rounded shadow-sm">
+                    <h3>Reise 4</h3>
+                    <div class="border"></div>
+                </div>
+
+                <div class="m-3 p-3 bg-white rounded shadow-sm">
+                    <h3>Reise 5</h3>
+                    <div class="border"></div>
+                </div>
+
+                <div class="m-3 p-3 bg-white rounded shadow-sm">
+                    <h3>Reise 6</h3>
+                    <div class="border"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Navigation
+    <footer class="bg-darker text-light">
+        <div class="py-5 container text-center">
+            <lgall>Copyright &copy; Abwesenheits-Manager</lgall>
+        </div>
+    </footer> -->
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+    <!--<script src="../js/dynamicelements.js"></script>-->
+</main>
+</body>
+</html>
